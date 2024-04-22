@@ -27,7 +27,7 @@ namespace InfomatikPizza
 
         public void ShowLoginScreen()
         {
-            Content = new UserControl1(this);
+            Content = new LoginScreen(this);
         }
     }
 }
