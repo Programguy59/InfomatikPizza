@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InfomatikPizza"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="450">
     <Grid>
+        <ContentControl Content="ContentControl" HorizontalAlignment="Left" Margin="132,363,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

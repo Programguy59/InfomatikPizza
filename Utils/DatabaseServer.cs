@@ -30,7 +30,6 @@ public static class DatabaseServer
 	private static SqlConnection GetConnection()
     {
      string Host = "sql.itcn.dk";
-     int Port = 1433;
 
      string Database = "magn8244.SKOLE";
      string User = "magn8244.SKOLE";

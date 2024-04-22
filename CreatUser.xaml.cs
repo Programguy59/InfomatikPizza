@@ -12,22 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 namespace InfomatikPizza
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreatUser.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreatUser : UserControl
     {
-        public MainWindow()
+        public CreatUser()
         {
             InitializeComponent();
-            ShowLoginScreen();
-        }
-
-        public void ShowLoginScreen()
-        {
-            Content = new UserControl1(this);
         }
     }
 }
